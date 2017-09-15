@@ -60,8 +60,8 @@
                             <constraint firstItem="8yo-0Q-8Um" firstAttribute="top" secondItem="jBp-1c-VPl" secondAttribute="top" id="Eje-X4-4dj"/>
                             <constraint firstItem="aNa-GD-moB" firstAttribute="top" secondItem="jBp-1c-VPl" secondAttribute="bottom" constant="19" id="F3G-l9-8Og"/>
                             <constraint firstItem="E9R-TA-RNj" firstAttribute="top" secondItem="MUn-d7-JF6" secondAttribute="bottom" constant="11" id="Fea-XR-GkF"/>
+                            <constraint firstItem="aNa-GD-moB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kb6-hm-hqA"/>
                             <constraint firstItem="E9R-TA-RNj" firstAttribute="centerX" secondItem="aNa-GD-moB" secondAttribute="centerX" id="LtK-YK-4RQ"/>
-                            <constraint firstItem="jBp-1c-VPl" firstAttribute="centerX" secondItem="aNa-GD-moB" secondAttribute="centerX" id="Q2z-44-HEU"/>
                             <constraint firstItem="8yo-0Q-8Um" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W15-th-f9S"/>
                             <constraint firstItem="MUn-d7-JF6" firstAttribute="top" secondItem="aNa-GD-moB" secondAttribute="bottom" constant="162" id="nD5-RE-3sv"/>
                             <constraint firstItem="MUn-d7-JF6" firstAttribute="centerX" secondItem="aNa-GD-moB" secondAttribute="centerX" id="qAv-Wh-VIw"/>
