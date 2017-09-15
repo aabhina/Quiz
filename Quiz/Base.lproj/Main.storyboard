@@ -47,14 +47,22 @@
                                     <action selector="showAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ATb-10-DMk"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yo-0Q-8Um">
+                                <rect key="frame" x="166.5" y="95" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="jBp-1c-VPl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="75" id="DA9-gH-W0Z"/>
+                            <constraint firstItem="8yo-0Q-8Um" firstAttribute="top" secondItem="jBp-1c-VPl" secondAttribute="top" id="Eje-X4-4dj"/>
                             <constraint firstItem="aNa-GD-moB" firstAttribute="top" secondItem="jBp-1c-VPl" secondAttribute="bottom" constant="19" id="F3G-l9-8Og"/>
                             <constraint firstItem="E9R-TA-RNj" firstAttribute="top" secondItem="MUn-d7-JF6" secondAttribute="bottom" constant="11" id="Fea-XR-GkF"/>
                             <constraint firstItem="E9R-TA-RNj" firstAttribute="centerX" secondItem="aNa-GD-moB" secondAttribute="centerX" id="LtK-YK-4RQ"/>
                             <constraint firstItem="jBp-1c-VPl" firstAttribute="centerX" secondItem="aNa-GD-moB" secondAttribute="centerX" id="Q2z-44-HEU"/>
+                            <constraint firstItem="8yo-0Q-8Um" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W15-th-f9S"/>
                             <constraint firstItem="MUn-d7-JF6" firstAttribute="top" secondItem="aNa-GD-moB" secondAttribute="bottom" constant="162" id="nD5-RE-3sv"/>
                             <constraint firstItem="MUn-d7-JF6" firstAttribute="centerX" secondItem="aNa-GD-moB" secondAttribute="centerX" id="qAv-Wh-VIw"/>
                             <constraint firstItem="jBp-1c-VPl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zxM-LG-phT"/>
@@ -62,7 +70,8 @@
                     </view>
                     <connections>
                         <outlet property="answerLabel" destination="MUn-d7-JF6" id="bQI-7u-JnW"/>
-                        <outlet property="questionLabel" destination="jBp-1c-VPl" id="UW2-ss-Ud8"/>
+                        <outlet property="currentQuestionLabel" destination="jBp-1c-VPl" id="62r-0W-Ung"/>
+                        <outlet property="nextQuestionLabel" destination="8yo-0Q-8Um" id="uNX-r9-vkA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
