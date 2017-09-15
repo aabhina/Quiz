@@ -63,6 +63,7 @@ class ViewController: UIViewController {
     }
     
     func animateLabelTransitions() {
+        view.layoutIfNeeded()
         
         //Animate the alpha
         //and the center X constraints
@@ -72,7 +73,7 @@ class ViewController: UIViewController {
         
         UIView.animate(withDuration: 0.5,
                        delay: 0,
-                       options: [],
+                       options: [.curveLinear],
                        animations: {
                         self.currentQuestionLabel.alpha = 0
                         self.nextQuestionLabel.alpha = 1
